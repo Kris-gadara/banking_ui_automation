@@ -92,7 +92,7 @@ Maven reports: `target/surefire-reports/`. Portfolio copies: `test-output/` (upd
 
 ## Test Results
 
-**Latest local run** (after Java 21 migration, 2026-10-05 ~14:19–14:20 IST):
+**Latest local run** (2026-10-05 ~14:43–14:44 IST, Maven 3.9.9 + JDK 21):
 
 | Metric | Value |
 |--------|------:|
@@ -101,7 +101,7 @@ Maven reports: `target/surefire-reports/`. Portfolio copies: `test-output/` (upd
 | Failed | 0 |
 | Skipped | 0 |
 | Errors | 0 |
-| Suite time | ~60.6 s |
+| Suite time | ~63.4 s |
 
 Passed: `Login`, `BalanceCheck`, `Deposit`.
 
@@ -120,19 +120,10 @@ Passed: `Login`, `BalanceCheck`, `Deposit`.
 
 ## Known Limitations
 
-- **Maven PATH:** Maven 3.9.9 may be installed but not on system `PATH`; add Maven `bin` to PATH for CLI use (see below).
 - **CDP warning:** Selenium 4.18.1 may warn about Chrome DevTools version mismatch; tests still passed in the latest run.
 - **Fixed sleeps:** `Thread.sleep` plus explicit waits lengthen runs and can flake on slow networks.
 - **Deposit logic:** Amount entry only when balance string equals `"0"`.
 - **Demo dependency:** Third-party site and user data can change.
-
-### Maven PATH (Windows)
-
-If `mvn` is not recognized, add Maven’s `bin` folder to your user **Path** environment variable, for example:
-
-`C:\Users\<YourUser>\AppData\Local\Temp\apache-maven-3.9.9\bin`
-
-For a permanent install, extract [Apache Maven 3.9.x](https://maven.apache.org/download.cgi) under `C:\Program Files\Apache\maven`, set **MAVEN_HOME** to that folder, and add `%MAVEN_HOME%\bin` to **Path**. Restart the terminal after saving.
 
 ## Author
 
