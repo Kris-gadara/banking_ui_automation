@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-05T14:03:45 IST" name="Suite" finished-at="2026-10-05T14:04:45 IST" duration-ms="60061">
+  <suite started-at="2026-10-05T14:19:08 IST" name="Suite" finished-at="2026-10-05T14:20:08 IST" duration-ms="60159">
     <groups>
     </groups>
-    <test started-at="2026-10-05T14:03:45 IST" name="Test" finished-at="2026-10-05T14:04:45 IST" duration-ms="60061">
+    <test started-at="2026-10-05T14:19:08 IST" name="Test" finished-at="2026-10-05T14:20:08 IST" duration-ms="60159">
       <class name="Login_Functionality.LoginTest">
-        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:Login_Functionality.LoginTest@3ce1e309]" started-at="2026-10-05T14:03:45 IST" name="Setup" finished-at="2026-10-05T14:03:48 IST" duration-ms="3057" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:Login_Functionality.LoginTest@3ce1e309]" started-at="2026-10-05T14:19:08 IST" name="Setup" finished-at="2026-10-05T14:19:11 IST" duration-ms="3752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Login()[pri:0, instance:Login_Functionality.LoginTest@3ce1e309]" started-at="2026-10-05T14:03:48 IST" name="Login" finished-at="2026-10-05T14:04:06 IST" duration-ms="18093" status="PASS">
+        <test-method signature="Login()[pri:0, instance:Login_Functionality.LoginTest@3ce1e309]" started-at="2026-10-05T14:19:11 IST" name="Login" finished-at="2026-10-05T14:19:30 IST" duration-ms="18225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="BalanceCheck()[pri:1, instance:Login_Functionality.LoginTest@3ce1e309]" started-at="2026-10-05T14:04:06 IST" name="BalanceCheck" finished-at="2026-10-05T14:04:13 IST" duration-ms="7138" status="PASS">
+        <test-method signature="BalanceCheck()[pri:1, instance:Login_Functionality.LoginTest@3ce1e309]" started-at="2026-10-05T14:19:30 IST" name="BalanceCheck" finished-at="2026-10-05T14:19:37 IST" duration-ms="7151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BalanceCheck -->
-        <test-method signature="Deposit()[pri:2, instance:Login_Functionality.LoginTest@3ce1e309]" started-at="2026-10-05T14:04:13 IST" name="Deposit" finished-at="2026-10-05T14:04:39 IST" duration-ms="25612" status="PASS">
+        <test-method signature="Deposit()[pri:2, instance:Login_Functionality.LoginTest@3ce1e309]" started-at="2026-10-05T14:19:37 IST" name="Deposit" finished-at="2026-10-05T14:20:02 IST" duration-ms="25587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Deposit -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login_Functionality.LoginTest@3ce1e309]" started-at="2026-10-05T14:04:39 IST" name="TearDown" finished-at="2026-10-05T14:04:45 IST" duration-ms="6034" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Login_Functionality.LoginTest@3ce1e309]" started-at="2026-10-05T14:20:02 IST" name="TearDown" finished-at="2026-10-05T14:20:08 IST" duration-ms="5366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

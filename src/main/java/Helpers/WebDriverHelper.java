@@ -12,17 +12,16 @@ public class WebDriverHelper
 	static WebDriver driver;
 	public static WebDriver getDriver(String browser) 
 	{
-		String filepath = System.getProperty("user.dir");
 		if(browser.equalsIgnoreCase("chrome")) 
 		{
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}else if(browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", filepath+"/Tools/FirefoxDrivers/geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}else if(browser.equalsIgnoreCase("edge")) 
 		{
-			System.setProperty("webdriver.edge.driver", filepath+"/Tools/MsEdgeDrivers/msedgedriver.exe");
+			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
 		
